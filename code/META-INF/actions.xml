@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:soapui-actions xmlns:tns="http://eviware.com/soapui/config">
+
+    <tns:action id="SoapUISearchAction" actionClass="com.au.fttest.plugins.SoapUISearchAction"/>
+	
+ 	<tns:actionGroup id="WorkspaceImplActions">
+		<tns:actionMapping actionId="SoapUISearchAction" name="Search" description="SoapUI Search Action" keyStroke="ctrl F"/>
+	</tns:actionGroup>
+
+ <!--		<tns:action id="GroovyScriptAction" actionClass="com.eviware.soapui.support.scripting.actions.SoapUIScriptAction"/>
+  
+	<tns:actionGroup id="WorkspaceImplActions">
+		<tns:actionMapping actionId="GroovyScriptAction" name="Search" description="SoapUI Search Action"
+		param="com.au.fttest.plugins.SoapUISearchAction" keyStroke="ctrl F"/>
+	</tns:actionGroup>
+
+ 	<tns:actionGroup id="EnabledWsdlProjectActions">
+		<tns:actionMapping actionId="GroovyScriptAction" name="Search" description="SoapUI Search Action"
+		param="com.au.fttest.plugins.SoapUISearchAction"/>
+	</tns:actionGroup>
+	
+	 <tns:actionGroup id="CompositeWsdlProjectActions">
+		<tns:actionMapping actionId="GroovyScriptAction" name="Search" description="SoapUI Search Action"
+		param="com.au.fttest.plugins.SoapUISearchAction" keyStroke="ctrl F"/>
+	</tns:actionGroup>
+  -->
+</tns:soapui-actions>
